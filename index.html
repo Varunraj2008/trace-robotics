@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trace Robotics - Automation & Robotics Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <span>Trace Robotics</span>
+            </div>
+            
+            <nav class="navbar-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#solutions" class="nav-link">Solutions</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#support" class="nav-link">Support</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="navbar-right">
+                <button class="btn-get-touch">Get in Touch</button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <video class="hero-video" autoplay muted loop playsinline>
+                        <source src="./videos/trace-robotics-video.mp4" type="video/mp4">
+                    </video>
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.15); pointer-events: none;"></div>
+                </div>
+
+                <button class="carousel-arrow carousel-prev" id="prevSlide">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <button class="carousel-arrow carousel-next" id="nextSlide">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="section-badge">ABOUT US</div>
+            
+            <div class="about-content">
+                <p class="about-text">
+                    Trace Robotics is an automation and robotics company focused on solving real industrial problems through 
+                    <span class="highlight">intelligent engineering solutions</span>. We help manufacturing industries improve productivity, quality, safety, 
+                    traceability, and operational efficiency by delivering practical automation systems tailored to their workflow.
+                </p>
+
+                <p class="about-text">
+                    Our expertise combines robotics, embedded systems, mechanical design, control systems, industrial software, 
+                    and smart automation to build solutions that are reliable, scalable, and industry-ready. From concept to 
+                    deployment, we work closely with industries to transform manual, repetitive, and inefficient processes into smarter 
+                    automated operations.
+                </p>
+            </div>
+
+            <!-- Vision Card -->
+            <div class="vision-card">
+                <div class="vision-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 10V3L4 14h7v7l9-11h-7z" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="vision-content">
+                    <h3>Our Vision:</h3>
+                    <p>To become the most trusted automation partner for manufacturing industries in India and beyond — enabling smarter factories, safer workplaces, and more efficient operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="section-container">
+            <div class="section-badge">SOLUTION</div>
+            
+            <h2 class="section-title">Autonomous Solutions for Smart Factories</h2>
+
+            <div class="solutions-grid">
+                <!-- Left: Image Placeholder -->
+                <div class="solutions-image">
+                    <div style="width: 100%; height: 100%; position: relative;">
+                        <video class="hero-video" autoplay muted loop playsinline>
+                            <source src="./videos/QuantumRobot_V1.mp4" type="video/mp4">
+                        </video>
+                        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.15); pointer-events: none; border-radius: 24px;"></div>
+                    </div>
+                </div>
+
+                <!-- Right: Solution Cards -->
+                <div class="solutions-cards">
+                    <div class="solution-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="5" width="8" height="14" rx="1" stroke="currentColor" stroke-width="2"/>
+                                <rect x="14" y="5" width="8" height="14" rx="1" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="6" cy="12" r="2" fill="currentColor"/>
+                                <circle cx="18" cy="12" r="2" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3>Autonomous Mobile Robots (AMR)</h3>
+                        <p>Intelligent material handling and internal logistics automation with our cutting-edge AMR fleet.</p>
+                    </div>
+
+                    <div class="solution-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 7V12L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Custom Industrial Automation</h3>
+                        <p>We develop tailored automation solutions to improve productivity, efficiency, and safety across your operations.</p>
+                    </div>
+
+                    <div class="solution-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M9 12H15M12 9V15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>AI & Sensor Integration</h3>
+                        <p>Our solutions integrate robotics, sensors, and AI technologies to optimize manufacturing and warehouse operations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="section-container">
+            <div class="section-badge">PRODUCTS</div>
+            
+            <h2 class="section-title">Our Flagship Hardware</h2>
+
+            <div class="products-grid">
+                <!-- Left: Image Placeholder -->
+                <div class="products-image">
+                    <div style="width: 100%; height: 100%; position: relative;">
+                        <video class="hero-video" autoplay muted loop playsinline>
+                            <source src="./videos/trace-robotics-video.mp4" type="video/mp4">
+                        </video>
+                        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.15); pointer-events: none; border-radius: 24px;"></div>
+                    </div>
+                </div>
+
+                <!-- Right: Product Cards -->
+                <div class="products-cards">
+                    <div class="product-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="8" width="18" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <rect x="5" y="3" width="14" height="6" rx="1" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Tracelite Core</h3>
+                        <p>Essential features, entry-level solution</p>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>TracePro</h3>
+                        <p>Advanced capabilities for industrial use</p>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L19 7V17L12 22L5 17V7L12 2Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 9V15M9 12H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>TracePrime</h3>
+                        <p>High-performance, fully integrated solution.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-footer">
+                <button class="btn-primary">
+                    Explore Products
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support" class="support">
+        <div class="section-container">
+            <div class="section-badge">SUPPORT & TRAINING</div>
+
+            <div class="support-grid">
+                <!-- Left: Image Placeholder -->
+                <div class="support-image">
+                    <div style="width: 100%; height: 100%; position: relative;">
+                        <video class="hero-video" autoplay muted loop playsinline>
+                            <source src="./videos/QuantumRobot_V1.mp4" type="video/mp4">
+                        </video>
+                        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.15); pointer-events: none; border-radius: 24px;"></div>
+                    </div>
+                </div>
+
+                <!-- Right: Support Cards -->
+                <div class="support-cards">
+                    <div class="support-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11C11 10 13 9 13 7C13 5.9 12.1 5 11 5C9.9 5 9 5.9 9 7H7C7 4.7 8.9 3 11 3C13.1 3 15 4.9 15 7C15 8.5 14 10 13 13Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3>Robot Training</h3>
+                        <p>Hands-on industrial robot programming and operation.</p>
+                    </div>
+
+                    <div class="support-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="7" width="20" height="13" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 10V14M9 12H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M2 7L12 2L22 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>PLC Training</h3>
+                        <p>Practical PLC programming and automation control.</p>
+                    </div>
+
+                    <div class="support-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM14.5 12L10 8V16L14.5 12Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3>Support & Maintenance</h3>
+                        <p>Reliable support, troubleshooting.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="support-footer">
+                <button class="btn-primary">
+                    Explore Courses
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="section-badge">CONTACT</div>
+            
+            <h2 class="section-title">Let's Build Something Amazing</h2>
+
+            <div class="contact-grid">
+                <!-- Left: Contact Info -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.92V19.92C22.0125 20.1343 21.9616 20.3464 21.851 20.5357C21.7404 20.725 21.5743 20.8857 21.3723 20.9957C21.1703 21.1057 20.9406 21.1609 20.71 21.1565C17.0061 21.0879 13.4228 19.8928 10.5 17.7864C7.84869 15.8559 5.74622 13.2766 4.45325 10.3262C2.36961 6.10905 2.71505 1.10227 5.5 0.200574C5.81588 0.0988295 6.15331 0.0988295 6.46919 0.200574C6.78507 0.302317 7.06457 0.502181 7.26 0.77C9.5 4 10.5625 5.625 11.125 7.125C11.25 7.5 11.1875 7.9375 10.75 8.5C9.5 10.125 9.125 10.25 10.75 13C12.375 15.75 13 16.375 14.5 15.125C15.0625 14.6875 15.5 14.625 15.875 14.75C17.375 15.3125 19 16.3125 22 18.5C22.2754 18.6946 22.4754 18.9741 22.5771 19.2904C22.6788 19.6067 22.6771 19.9471 22.5728 20.2624C22.4685 20.5777 22.2664 20.8533 21.9918 21.0408C21.7172 21.2283 21.3855 21.3172 21.055 21.3H18" stroke="#E63E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>PHONE</h4>
+                        <p>+91 7010776537</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="4" width="20" height="16" rx="2" stroke="#4A90E2" stroke-width="2"/>
+                                <path d="M2 6L12 13L22 6" stroke="#4A90E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>EMAIL</h4>
+                        <p>info.tracerobotics@gmail.com</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="10" r="6" stroke="#4A90E2" stroke-width="2"/>
+                                <path d="M12 10L12 20.5" stroke="#4A90E2" stroke-width="2"/>
+                                <path d="M12 20.5C8 20.5 5 22 5 22" stroke="#4A90E2" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M12 20.5C16 20.5 19 22 19 22" stroke="#4A90E2" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>WEBSITE</h4>
+                        <p>www.tracerobotics.in</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C7.03 2 3 6.03 3 11C3 17 12 22 12 22S21 17 21 11C21 6.03 16.97 2 12 2ZM12 14C10.34 14 9 12.66 9 11C9 9.34 10.34 8 12 8C13.66 8 15 9.34 15 11C15 12.66 13.66 14 12 14Z" fill="#E63E5B"/>
+                            </svg>
+                        </div>
+                        <h4>LOCATION</h4>
+                        <p>Punjai Puliampatti, Erode</p>
+                    </div>
+                </div>
+
+                <!-- Right: Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        
+                        <select required>
+                            <option value="">What are you interested in?</option>
+                            <option value="amr">Autonomous Mobile Robots</option>
+                            <option value="automation">Custom Industrial Automation</option>
+                            <option value="ai">AI & Sensor Integration</option>
+                            <option value="training">Training Program</option>
+                            <option value="support">Support Services</option>
+                        </select>
+
+                        <textarea placeholder="Tell us about your requirements..." rows="6" required></textarea>
+
+                        <button type="submit" class="btn-submit">
+                            Send Message
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="3" width="18" height="18" rx="4" stroke="white" stroke-width="2"/>
+                        <circle cx="12" cy="12" r="3" fill="white"/>
+                    </svg>
+                    <span>Trace Robotics</span>
+                </div>
+                <p class="footer-description">Developing intelligent robotic solutions for industry. Building the next generation of robotics engineers.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" title="WhatsApp">
+                        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.472 14.382C17.472 14.382 16.698 13.662 15.978 13.176C15.786 13.056 15.588 13.002 15.39 13.002C15.066 13.002 14.796 13.128 14.634 13.35C14.472 13.572 14.238 13.86 14.022 14.124C13.998 14.154 13.968 14.196 13.938 14.238C13.812 14.412 13.71 14.55 13.536 14.658C13.362 14.766 13.2 14.796 13.026 14.796H12.996C12.474 14.796 11.094 14.286 9.948 13.194C8.802 12.102 8.292 10.722 8.292 10.2V10.17C8.292 9.996 8.322 9.834 8.43 9.66C8.538 9.486 8.676 9.384 8.85 9.258C9.114 9.042 9.402 8.808 9.624 8.646C9.846 8.484 9.972 8.214 9.972 7.89C9.972 7.692 9.918 7.494 9.798 7.302C9.312 6.582 8.592 5.808 8.592 5.808C8.472 5.682 8.256 5.496 8.1 5.406C7.89 5.286 7.698 5.286 7.482 5.286H7.392C7.044 5.286 6.702 5.436 6.516 5.694C6.294 6.012 5.952 6.702 5.952 8.082C5.952 9.594 6.414 11.46 8.04 13.086C9.666 14.712 11.532 15.174 13.044 15.174C14.424 15.174 15.114 14.832 15.432 14.61C15.69 14.424 15.84 14.082 15.84 13.734V13.644C15.84 13.428 15.84 13.212 15.72 13.002Z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" title="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12c0-3.403 2.759-6.162 6.162-6.162s6.162 2.759 6.162 6.162-2.759 6.162-6.162 6.162-6.162-2.759-6.162-6.162zm2.889 0c0 1.821 1.452 3.273 3.273 3.273s3.273-1.452 3.273-3.273-1.452-3.273-3.273-3.273-3.273 1.452-3.273 3.273zm9.754-6.5c0 .795.645 1.44 1.44 1.44.795 0 1.44-.645 1.44-1.44-.645-1.44-1.44-.795-1.44 0z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" title="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.731-2.004 1.438-.103.252-.129.604-.129.957v5.41h-3.553s.048-8.783 0-9.703h3.553v1.373c-.427-.666-1.19-1.615-2.896-1.615-2.117 0-3.704 1.388-3.704 4.369v5.576H2.909V6.749h3.553v1.095c1.01-1.56 2.82-3.818 6.864-3.818 5.018 0 8.775 3.212 8.775 10.125v6.3zM5.337 5.43c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 14.596h-3.564V6.748h3.564v13.278zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" title="YouTube">
+                        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#solutions">Industry</a></li>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Shipping & Refund Policy</a></li>
+                    <li><a href="#">Warranty Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <div class="footer-contact">
+                    <p class="footer-contact-item">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92V19.92C22.0125 20.1343 21.9616 20.3464 21.851 20.5357C21.7404 20.725 21.5743 20.8857 21.3723 20.9957C21.1703 21.1057 20.9406 21.1609 20.71 21.1565C17.0061 21.0879 13.4228 19.8928 10.5 17.7864C7.84869 15.8559 5.74622 13.2766 4.45325 10.3262C2.36961 6.10905 2.71505 1.10227 5.5 0.200574C5.81588 0.0988295 6.15331 0.0988295 6.46919 0.200574C6.78507 0.302317 7.06457 0.502181 7.26 0.77C9.5 4 10.5625 5.625 11.125 7.125C11.25 7.5 11.1875 7.9375 10.75 8.5C9.5 10.125 9.125 10.25 10.75 13C12.375 15.75 13 16.375 14.5 15.125C15.0625 14.6875 15.5 14.625 15.875 14.75C17.375 15.3125 19 16.3125 22 18.5C22.2754 18.6946 22.4754 18.9741 22.5771 19.2904C22.6788 19.6067 22.6771 19.9471 22.5728 20.2624C22.4685 20.5777 22.2664 20.8533 21.9918 21.0408C21.7172 21.2283 21.3855 21.3172 21.055 21.3H18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        +91 7010776537
+                    </p>
+                    <p class="footer-contact-item">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2 6L12 13L22 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        info.tracerobotics@gmail.com
+                    </p>
+                    <p class="footer-contact-item">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="10" r="6" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 10L12 20.5" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        www.tracerobotics.in
+                    </p>
+                    <p class="footer-contact-item">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C7.03 2 3 6.03 3 11C3 17 12 22 12 22S21 17 21 11C21 6.03 16.97 2 12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="11" r="2" fill="currentColor"/>
+                        </svg>
+                        Punjai Puliampatti, Erode
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Trace Robotics. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917010776537" target="_blank" class="whatsapp-button" title="Chat with us on WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 3 .97 4.29L2.5 22l6.05-1.62c1.25.63 2.65.98 4.15.98C17.52 22 22 17.52 22 12s-4.48-10-10-10zm0 18c-1.41 0-2.73-.36-3.88-.98l-.28-.15-2.89.77.79-2.82-.18-.29C4.35 14.64 4 13.36 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/>
+            <path d="M16.5 12.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5.5.22.5.5-.22.5-.5.5zm-3 0c-.28 0-.5-.22-.5-.5s.22-.5.5-.5.5.22.5.5-.22.5-.5.5zm-3 0c-.28 0-.5-.22-.5-.5s.22-.5.5-.5.5.22.5.5-.22.5-.5.5z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

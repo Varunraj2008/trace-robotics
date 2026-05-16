@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080">
+  <rect width="900" height="1080" rx="48" fill="#eef4ff"/>
+  <rect x="80" y="180" width="740" height="180" rx="44" fill="#dbe7ff"/>
+  <rect x="190" y="410" width="180" height="320" rx="36" fill="#3b82f6"/>
+  <rect x="470" y="430" width="280" height="240" rx="36" fill="#2563eb"/>
+  <circle cx="320" cy="280" r="90" fill="#fff" stroke="#2563eb" stroke-width="18"/>
+  <circle cx="320" cy="280" r="36" fill="#1d4ed8"/>
+  <path d="M470 680 L560 430 L600 430 L620 680 Z" fill="#1e40af" opacity="0.85"/>
+  <rect x="200" y="780" width="460" height="120" rx="40" fill="#dbe7ff"/>
+  <text x="450" y="980" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">Training & Support</text>
+</svg>

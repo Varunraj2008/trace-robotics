@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f5f7ff"/>
+  <rect x="120" y="520" width="960" height="180" rx="40" fill="#e2e8f0"/>
+  <path d="M450 310 C500 210 650 210 720 310 L760 530 L520 530 Z" fill="#2563eb"/>
+  <rect x="700" y="270" width="220" height="70" rx="32" fill="#1d4ed8"/>
+  <circle cx="610" cy="320" r="85" fill="#93c5fd"/>
+  <circle cx="610" cy="320" r="40" fill="#fff"/>
+  <circle cx="610" cy="320" r="16" fill="#0f172a"/>
+  <path d="M500 520 L520 340 L620 340 L640 520 Z" fill="#1e40af" opacity="0.85"/>
+  <rect x="270" y="650" width="220" height="60" rx="28" fill="#2563eb"/>
+  <text x="600" y="760" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" text-anchor="middle">Robot Arm Close-up</text>
+</svg>

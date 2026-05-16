@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f3f7fe"/>
+  <rect x="160" y="560" width="880" height="160" rx="36" fill="#dbe7ff"/>
+  <circle cx="340" cy="230" r="110" fill="#1e40af"/>
+  <circle cx="340" cy="230" r="60" fill="#eff6ff"/>
+  <rect x="380" y="200" width="360" height="72" rx="36" fill="#2563eb"/>
+  <rect x="740" y="280" width="140" height="260" rx="36" fill="#3b82f6"/>
+  <path d="M760 520 L850 320 L930 320 L920 520 Z" fill="#1e40af"/>
+  <rect x="860" y="520" width="140" height="120" rx="28" fill="#dbe7ff"/>
+  <circle cx="910" cy="580" r="36" fill="#2563eb"/>
+  <text x="600" y="760" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" text-anchor="middle">Factory Robot</text>
+</svg>

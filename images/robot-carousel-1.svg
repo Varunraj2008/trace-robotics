@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#eef3fb"/>
+  <rect x="140" y="520" width="920" height="200" rx="40" fill="#dbe7ff"/>
+  <rect x="840" y="260" width="240" height="80" rx="28" fill="#0f4ad8"/>
+  <rect x="720" y="340" width="120" height="280" rx="30" fill="#0f4ad8"/>
+  <rect x="500" y="300" width="320" height="80" rx="36" fill="#3b82f6"/>
+  <rect x="480" y="380" width="360" height="40" rx="20" fill="#60a5fa"/>
+  <circle cx="460" cy="250" r="90" fill="#a5b4fc"/>
+  <circle cx="520" cy="250" r="50" fill="#fff"/>
+  <circle cx="555" cy="250" r="18" fill="#0f172a"/>
+  <path d="M460 520 L520 340 L600 340 L620 520 Z" fill="#1e40af" opacity="0.9"/>
+  <circle cx="360" cy="640" r="48" fill="#0f4ad8"/>
+  <circle cx="360" cy="640" r="28" fill="#fff"/>
+  <rect x="280" y="680" width="160" height="40" rx="18" fill="#2563eb"/>
+  <text x="600" y="760" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" text-anchor="middle">Industrial Robot Arm</text>
+</svg>

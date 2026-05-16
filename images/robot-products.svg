@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080">
+  <rect width="900" height="1080" rx="48" fill="#f3f7fe"/>
+  <rect x="100" y="210" width="700" height="180" rx="44" fill="#dbe7ff"/>
+  <rect x="180" y="420" width="220" height="280" rx="30" fill="#2563eb"/>
+  <rect x="460" y="420" width="220" height="200" rx="30" fill="#1d4ed8"/>
+  <path d="M180 420 L460 420 L520 200 L380 200 Z" fill="#1e40af" opacity="0.9"/>
+  <circle cx="320" cy="300" r="80" fill="#eff6ff" stroke="#1d4ed8" stroke-width="16"/>
+  <circle cx="320" cy="300" r="32" fill="#1d4ed8"/>
+  <rect x="380" y="750" width="260" height="120" rx="40" fill="#dbe7ff"/>
+  <text x="450" y="980" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">Robot Hardware</text>
+</svg>
