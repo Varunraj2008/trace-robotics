@@ -352,23 +352,30 @@
 
                 <!-- Right: Contact Form -->
                 <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contactForm" action="https://formsubmit.co/info.tracerobotics@gmail.com" method="POST">
+                    <form class="contact-form" action="https://formsubmit.co/info.tracerobotics@gmail.com" method="POST">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_template" value="table">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="hidden" name="_subject" value="New Trace Robotics Inquiry">
                         
-                        <select name="interest" required>
-                            <option value="">What are you interested in?</option>
-                            <option value="amr">Autonomous Mobile Robots</option>
-                            <option value="automation">Custom Industrial Automation</option>
-                            <option value="ai">AI & Sensor Integration</option>
-                            <option value="training">Training Program</option>
-                            <option value="support">Support Services</option>
+                        <input type="text"
+                               name="name"
+                               placeholder="Your Name"
+                               required>
+                        
+                        <input type="email"
+                               name="email"
+                               placeholder="Your Email"
+                               required>
+                        
+                        <select name="interest">
+                            <option value="Solutions">Solutions</option>
+                            <option value="Products">Products</option>
+                            <option value="Support">Support</option>
                         </select>
-
-                        <textarea name="requirements" placeholder="Tell us about your requirements..." rows="6" required></textarea>
-
+                        
+                        <textarea name="requirements"
+                                  placeholder="Your Requirements"></textarea>
+                        
                         <button type="submit" class="btn-submit">
                             Send Message
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
