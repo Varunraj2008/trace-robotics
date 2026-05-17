@@ -133,51 +133,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 /* ===========================
-   CONTACT FORM HANDLING
-   =========================== */
-
-const contactForm = document.getElementById('contactForm');
-
-if (contactForm) {
-    contactForm.addEventListener('submit', async function(e) {
-        e.preventDefault();
-        
-        const submitBtn = this.querySelector('.btn-submit');
-        const originalBtnText = submitBtn.innerHTML;
-        
-        // Show loading state
-        submitBtn.innerHTML = 'Sending...';
-        submitBtn.disabled = true;
-        
-        // Get form data
-        const formData = new FormData(this);
-        
-        try {
-            // Send email via FormSubmit AJAX API
-            const response = await fetch(this.action, {
-                method: this.method,
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
-                }
-            });
-
-            if (response.ok) {
-                alert('Thank you for your message! We will get back to you soon.');
-                this.reset();
-            } else {
-                throw new Error('Network response was not ok.');
-            }
-        } catch (error) {
-            alert('Oops! There was a problem sending your message.');
-        } finally {
-            submitBtn.innerHTML = originalBtnText;
-            submitBtn.disabled = false;
-        }
-    });
-}
-
-/* ===========================
    INTERSECTION OBSERVER FOR ANIMATIONS
    =========================== */
 
