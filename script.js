@@ -102,8 +102,8 @@ if (carouselElement) {
     });
 }
 
-// Auto-advance carousel every 5 seconds (optional, commented out for manual control)
-// setInterval(nextSlide, 5000);
+// Auto-advance carousel every 5 seconds
+setInterval(nextSlide, 5000);
 
 /* ===========================
    SMOOTH SCROLL BEHAVIOR
@@ -142,14 +142,33 @@ if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
         
+        const submitBtn = this.querySelector('.btn-submit');
+        const originalBtnText = submitBtn.innerHTML;
+        
+        // Show loading state
+        submitBtn.innerHTML = 'Sending...';
+        submitBtn.disabled = true;
+        
         // Get form data
         const formData = new FormData(this);
         
-        // Show success message (in a real application, this would send to a server)
-        alert('Thank you for your message! We will get back to you soon.');
-        
-        // Reset form
-        this.reset();
+        // Send email via FormSubmit AJAX API
+        fetch("https://formsubmit.co/ajax/info.tracerobotics@gmail.com", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+            submitBtn.innerHTML = originalBtnText;
+            submitBtn.disabled = false;
+        })
+        .catch(error => {
+            alert('Oops! There was a problem sending your message. Please try again.');
+            submitBtn.innerHTML = originalBtnText;
+            submitBtn.disabled = false;
+        });
     });
 }
 

@@ -36,10 +36,24 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
-            <div class="carousel">
+            <div class="carousel hero-slider">
                 <div class="carousel-slide active">
                     <video class="hero-video" autoplay muted loop playsinline>
-                        <source src="./videos/trace-robotics-video.mp4" type="video/mp4">
+                        <source src="./videos/video1.mp4" type="video/mp4">
+                    </video>
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.15); pointer-events: none;"></div>
+                </div>
+
+                <div class="carousel-slide">
+                    <video class="hero-video" autoplay muted loop playsinline>
+                        <source src="./videos/video2.mp4" type="video/mp4">
+                    </video>
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.15); pointer-events: none;"></div>
+                </div>
+
+                <div class="carousel-slide">
+                    <video class="hero-video" autoplay muted loop playsinline>
+                        <source src="./videos/video3.mp4" type="video/mp4">
                     </video>
                     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.15); pointer-events: none;"></div>
                 </div>
@@ -339,10 +353,10 @@
                 <!-- Right: Contact Form -->
                 <div class="contact-form-wrapper">
                     <form class="contact-form" id="contactForm">
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
                         
-                        <select required>
+                        <select name="interest" required>
                             <option value="">What are you interested in?</option>
                             <option value="amr">Autonomous Mobile Robots</option>
                             <option value="automation">Custom Industrial Automation</option>
@@ -351,7 +365,7 @@
                             <option value="support">Support Services</option>
                         </select>
 
-                        <textarea placeholder="Tell us about your requirements..." rows="6" required></textarea>
+                        <textarea name="requirements" placeholder="Tell us about your requirements..." rows="6" required></textarea>
 
                         <button type="submit" class="btn-submit">
                             Send Message
